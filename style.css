@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000px;
+}
+.container{
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 100px 50px;
+
+
+}
+.box {
+    height: 100px;
+    width: 120px;
+    color: black;
+    position: relative; 
+   
+}
+
+h1{
+    color: red;
+}
+.box1{
+    background-color: rgb(235, 135, 98);
+    position: fixed;
+}
+
+.box2{
+    background-color: skyblue;
+    left: 200px;
+    top: 30px;   
+}
+
+.box3{
+    background-color: rgb(150, 250, 150);
+    position: sticky;
+    top: 40px;
+}
